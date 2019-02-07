@@ -4,6 +4,7 @@
   <title>Hayet's Resume</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
   <!--Header-->
@@ -12,18 +13,18 @@
     <nav>
       <div id="logo"><img src="image/logo.png" alt="logo"></div>
       <ul class="nav">
-        <li><a href="">home</a></li>
-        <li><a href="">about</a></li>
-        <li><a href="">service</a></li>
-        <li><a href="">profolio</a></li>
-        <li><a href="">contact</a></li>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#service">service</a></li>
+        <li><a href="#profolio">profolio</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <!--Background image-->
-<section class="home_bg">
+<section class="home_bg" id="home">
   <div class="overlay"></div>
   <div class="container_table">
     <div class="container_table_cell">
@@ -40,7 +41,7 @@
 </section>
 
 <!--About me-->
-<section class="about_me clearfix">
+<section class="about_me clearfix" id="about">
   <div class="container">
     <h2>about me</h2>
 
@@ -73,6 +74,35 @@
     </div>
   </div>
 </section>
+
+<!--my service-->
+<section class="my_service" id="service">
+  <div class="container">
+    <h2>what i offer</h2>
+    <div class="service-items clearfix">
+
+      <div class="service-content">
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <h3>web design and development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut sequi facere quidem voluptas rerum iure at officiis adipisci ipsum aliquid commodi, quis, possimus distinctio similique. Molestiae, voluptate minus deserunt accusantium.</p>
+      </div>
+
+      <div class="service-content">
+        <i class="fa fa-css3" aria-hidden="true"></i>
+        <h3>web design and development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quaerat mollitia fugit voluptates veniam laborum deserunt natus voluptate laudantium esse sed sit odit, doloremque eligendi cumque, distinctio, numquam doloribus repellendus.</p>
+      </div>
+
+      <div class="service-content">
+        <i class="fa fa-camera-retro" aria-hidden="true"></i>
+        <h3>web design and development</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nostrum amet necessitatibus placeat corrupti iste perspiciatis repudiandae? Illum libero quos voluptas perferendis corporis, minima impedit quam quas, asperiores ut cumque.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 <!--Resume-->
 <section class="resume">
@@ -142,7 +172,7 @@
 </section>
 
 <!--latest-works-->
-<section class="works">
+<section class="works" id="profolio">
   <div class="container">
     <h2>latest work</h2>
     <div class="work-item clearfix">
@@ -158,8 +188,8 @@
   </div>
 </section>
 
-<!--contat form-->
-<section class="contact">
+<!--contact form-->
+<section class="contact" id="contact">
   <div class="container">
     <h2>get in touch</h2>
 
@@ -185,7 +215,26 @@
     </div>
   </div>
 </section>
+
+
 <!--Footer-->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-content">
+      <p>&copy; 2019 Hayet | All Right Reserved.</p>
+      <div class="footer-social-icon">
+        <ul>
+          <li>
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href=""><i i class="fa fa-github-alt" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-skype" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>

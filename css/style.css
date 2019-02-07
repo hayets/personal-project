@@ -11,6 +11,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 * {
@@ -74,7 +75,7 @@ header {
 }
 
 .nav li a {
-  color: #222;
+  color: #FFA07A;
   text-transform: capitalize;
   display: block;
   padding: 10px 12px;
@@ -130,6 +131,7 @@ h2 {
   text-align: center;
   line-height: 50px;
   letter-spacing: 2px;
+  color: #FFA07A;
 }
 
 .co-left, .co-right {
@@ -183,6 +185,44 @@ h2 {
   display: table;
   clear: both;
 }
+
+/**my service**/
+
+.my_service {
+  padding: 100px 0;
+  background-color: #FFA07A;
+}
+
+.my_service .container h2 {
+  color: #fff;
+}
+
+.service-content {
+  float: left;
+  width: 33.3333333%;
+  padding: 0 15px;
+}
+
+.service-content i {
+  font-size: 30px;
+  line-height: 46px;
+}
+
+.service-content h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.service-content p {
+  color: #767676;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
 
 /**resume**/
 
@@ -274,7 +314,11 @@ h3.resume-subtitle {
 /**latest-work**/
 
 .works {
-  background-color: #f7f7f7;
+  background-color: #FFA07A;
+}
+
+.works .container h2 {
+  color: #fff;
 }
 
 .col-work {
@@ -357,3 +401,25 @@ h3.resume-subtitle {
   background-color: #000;
   color: #fff;
 }
+
+/**FOOTER**/
+footer {
+  padding: 80px 0;
+  background-color: #FFA07A;
+  color: #fff;
+  text-align: center; 
+}
+
+.footer-content p {
+  line-height: 22px;
+}
+
+.footer-social-icon a i {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
